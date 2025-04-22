@@ -10,7 +10,8 @@
 - Download data from:
     + BookReview: [OneDrive Link](https://stneuedu-my.sharepoint.com/:f:/g/personal/11221106_st_neu_edu_vn/EjuHGwMvVxdFrNqojayLjhEBGbTNrFRfSgihvONdm91fZQ?e=lkD7qn)
     + FinancialPhrase: [OneDrive Link](https://stneuedu-my.sharepoint.com/:f:/g/personal/11221106_st_neu_edu_vn/EhkE1oHqgfJLp4GTxllBgbQBiEcv4bycqvS4-twJfHS_FA?e=bDjNM2)
-- Paste them into the folder `data/raw/*`
+- Clone the repo
+- Paste datas into the folder `data/raw/*`
 - In the main project folder, open Terminal in Admin mode:
     - Create a virtual environment: `python -m venv venv`
     - Activate the environment: `venv\Scripts\activate`

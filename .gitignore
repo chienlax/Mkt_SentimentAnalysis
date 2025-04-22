@@ -6,3 +6,4 @@ data/raw/financial_news/
 data/processed/book_reviews/
 data/processed/financial_news/
 venv/
+.vscode/
