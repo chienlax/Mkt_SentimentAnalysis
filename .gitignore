@@ -1,0 +1,8 @@
+models/dl/
+models/llm/
+models/ml/
+data/raw/book_reviews/
+data/raw/financial_news/
+data/processed/book_reviews/
+data/processed/financial_news/
+venv/
