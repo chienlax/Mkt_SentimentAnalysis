@@ -5,5 +5,6 @@ data/raw/book_reviews/
 data/raw/financial_news/
 data/processed/book_reviews/
 data/processed/financial_news/
+data/embeddings/
 venv/
 .vscode/

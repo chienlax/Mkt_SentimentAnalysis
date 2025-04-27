@@ -20,13 +20,12 @@
     - Create a virtual environment: `python -m venv venv`
     - Activate the environment: `venv\Scripts\activate`
     - Install necessary libraries from requirements.txt file: `pip install -r requirements.txt`
+- Download glove.6B.100d.txt from: [Kaggel](https://www.kaggle.com/datasets/danielwillgeorge/glove6b100dtxt)
+    - Create new folder: `embeddings` in folder `data`
+    - Paste the glove file there
 
 ## Models:
 Feature Extractors are kept consistent across all ML models and DL models to ensure consistency when making comparision. Go to [feature_extractors.md](note/features_extractors.md) for more information.
-
-### Lexicon-based tools:
-- VADER
-- SentiWordNet
 
 ### Machine Learning Models:
 - TF-IDF (Unigrams + Bigrams) + **Naive Bayes** (generative classifier) (consider also using BoW)
@@ -68,6 +67,6 @@ Use encoder-only model as decoder-only model (like GPT, Claude or Gemma) is more
 - **BERT/DistilBERT as Fixed Feature Extractor** (Uses the pre-trained model's knowledge without the complexity/cost of fine-tuning it. Often suboptimal performance compared to fine-tuning but conceptually simpler to integrate with ML pipelines)
 - **DistilBERT Fine-tuning** (Standard entry point for transformer fine-tuning. Relatively lightweight)
 - **BERT-base Fine-tuning** (Slightly larger and slower than DistilBERT, potentially slightly better performance. Still manageable)
-- **RoBERTa-base / DeBERTa-v3-base Fine-tuning** (Often outperform BERT-base. Similar complexity level)
-- **BERT-base / RoBERTa-base + LoRA Fine-tuning** (Introduces Parameter-Efficient Fine-Tuning (PEFT). Faster training, less memory required than full fine-tuning, often with comparable performance)
+- **RoBERTa-base Fine-tuning** (Often outperform BERT-base. Similar complexity level)
+- **BERT-base/RoBERTa-base + LoRA Fine-tuning** (Introduces Parameter-Efficient Fine-Tuning (PEFT). Faster training, less memory required than full fine-tuning, often with comparable performance)
 - **FinBERT** (Pre-trained model to analyze sentiment of financial text)

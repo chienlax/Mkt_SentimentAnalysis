@@ -1,0 +1,9 @@
+Dataset,Model,Accuracy,F1 (Macro),Precision (Macro),Recall (Macro),F1 (Weighted),Precision (Weighted),Recall (Weighted),Train Time (s),Eval Time (s)
+Financial News,DistilBERT Feature Extractor + LR,0.7441540577716643,0.7173697380414369,0.694214910418165,0.7590846880062566,0.7488248603924952,0.7642313294654922,0.7441540577716643,1.971,0.004
+Financial News,BERT Feature Extractor + LR,0.7427785419532325,0.7110868349827051,0.6893589378471665,0.7519217801080548,0.749165831222845,0.7682990220440317,0.7427785419532325,2.84,0.003
+Financial News,DistilBERT Full FT,,,,,,,,0.0,0.0
+Financial News,BERT Full FT,,,,,,,,0.0,0.0
+Financial News,RoBERTa Full FT,,,,,,,,0.0,0.0
+Financial News,FinBERT Full FT,,,,,,,,0.0,0.0
+Financial News,BERT LoRA FT,,,,,,,,0.0,0.0
+Financial News,RoBERTa LoRA FT,,,,,,,,0.0,0.0
