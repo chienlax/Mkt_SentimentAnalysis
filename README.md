@@ -35,25 +35,21 @@ Feature Extractors are kept consistent across all ML models and DL models to ens
 - TF-IDF (Unigrams + Bigrams) + **LightGBM** (improved tree-based classifier)
 
 ### Deep Learning Models:
-From simple to complex combination of Feature Extractors and Models
+From simple to complex combination of Feature Embeddings and Models
 
-#### Starter Pack
 - **Averaged Static Embeddings (GloVe, Word2Vec, FastText) + Dense Network (MLP)** (Very simple DL. Loses all sequence information, often performs similarly to ML on aggregated embeddings. A small step up from ML.)
 
-#### Mid level
 - **Learned Embeddings + RNN** 
 - **Learned Embeddings + 1D CNN** (Good at capturing local patterns. Often faster to train than RNNs. Different architectural concept)
 - **Learned Embeddings + LSTM** (Introduces sequence modeling. Learns embeddings specific to your dataset, which can be good but requires sufficient data. Simple RNN architecture)
 - **Learned Embeddings + BiLSTM** (Captures context from both directions, usually performs better than unidirectional LSTM/GRU. Slightly more complex)
 
-#### Advanced Level
 - **Pre-trained Static Embeddings + 1D CNN** (Leverages external knowledge and focuses on local patterns)
 - **Pre-trained Static Embeddings + LSTM** (Leverages external knowledge from large corpora via embeddings. Often a strong baseline for basic DL. Requires handling OOV words if embeddings are fixed)
 - **Pre-trained Static Embeddings + CNN-LSTM Hybrid** (Combines strengths of both architectures. More complex to implement)
     - *Sequential model*. 
     - 1D Convolutional layers are applied first to the sequence of word embeddings. The sequence of feature vectors output by the CNN layers is then fed into LSTM layers.
 
-#### Hardcore vcl
 - **Combine BiLSTM for Word Embeddings and CNN for Character Embeddings** (Feature fusion. Handles OOV words well. Significantly more complex architecture and input pipeline)
     - *Parallel model*
     - *Word Stream*: The sequence of word embeddings is fed into a BiLSTM (or GRU) to capture word-level semantic context and sequence dependencies.
