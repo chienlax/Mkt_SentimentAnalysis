@@ -20,7 +20,7 @@
     - Create a virtual environment: `python -m venv venv`
     - Activate the environment: `venv\Scripts\activate`
     - Install necessary libraries from requirements.txt file: `pip install -r requirements.txt`
-- Download glove.6B.100d.txt from: [Kaggel](https://www.kaggle.com/datasets/danielwillgeorge/glove6b100dtxt)
+- Download glove.6B.100d.txt from: [Kaggle](https://www.kaggle.com/datasets/danielwillgeorge/glove6b100dtxt)
     - Create new folder: `embeddings` in folder `data`
     - Paste the glove file there
 
