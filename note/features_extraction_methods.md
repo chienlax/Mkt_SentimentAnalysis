@@ -10,8 +10,6 @@ The goals of these methods are:
 2.  **Information Capture:** The numerical representation should ideally capture relevant information for the task (e.g., word presence, frequency, importance, semantic meaning, context, sequence).
 3.  **Dimensionality Management:** Create representations that are computationally feasible for the models.
 
-Now, let's analyze the key methods you're likely to encounter, aligning with your model plan:
-
 ---
 
 **1. TF-IDF (Term Frequency-Inverse Document Frequency)**
