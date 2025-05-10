@@ -25,7 +25,7 @@
     - Paste the glove file there
 
 ## Models:
-Feature Extractors are kept consistent across all ML models and DL models to ensure consistency when making comparision. Go to [feature_extractors.md](note/features_extractors.md) for more information.
+Feature Extraction/Embedding Methods are kept consistent across all ML models and DL models to ensure consistency when making comparison. Go to [feature_extractors.md](note/features_extraction_method.md) for more information.
 
 ### Machine Learning Models:
 - TF-IDF (Unigrams + Bigrams) + **Naive Bayes** (generative classifier) (consider also using BoW)

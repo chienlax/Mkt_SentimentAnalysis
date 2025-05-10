@@ -1,0 +1,406 @@
+Domain,Model_Configuration,Actual_Label,Predicted_Label,Count
+Book Reviews,BERT_Feature_Extractor__LR,negative,negative,3771
+Book Reviews,BERT_Feature_Extractor__LR,negative,neutral,1149
+Book Reviews,BERT_Feature_Extractor__LR,negative,positive,372
+Book Reviews,BERT_Feature_Extractor__LR,neutral,negative,921
+Book Reviews,BERT_Feature_Extractor__LR,neutral,neutral,2060
+Book Reviews,BERT_Feature_Extractor__LR,neutral,positive,833
+Book Reviews,BERT_Feature_Extractor__LR,positive,negative,2868
+Book Reviews,BERT_Feature_Extractor__LR,positive,neutral,6350
+Book Reviews,BERT_Feature_Extractor__LR,positive,positive,26676
+Book Reviews,BERT_Full_FT,negative,negative,4130
+Book Reviews,BERT_Full_FT,negative,neutral,679
+Book Reviews,BERT_Full_FT,negative,positive,483
+Book Reviews,BERT_Full_FT,neutral,negative,620
+Book Reviews,BERT_Full_FT,neutral,neutral,1839
+Book Reviews,BERT_Full_FT,neutral,positive,1355
+Book Reviews,BERT_Full_FT,positive,negative,295
+Book Reviews,BERT_Full_FT,positive,neutral,857
+Book Reviews,BERT_Full_FT,positive,positive,34742
+Book Reviews,BERT_LoRA_FT,negative,negative,3736
+Book Reviews,BERT_LoRA_FT,negative,neutral,526
+Book Reviews,BERT_LoRA_FT,negative,positive,1030
+Book Reviews,BERT_LoRA_FT,neutral,negative,724
+Book Reviews,BERT_LoRA_FT,neutral,neutral,1029
+Book Reviews,BERT_LoRA_FT,neutral,positive,2061
+Book Reviews,BERT_LoRA_FT,positive,negative,582
+Book Reviews,BERT_LoRA_FT,positive,neutral,532
+Book Reviews,BERT_LoRA_FT,positive,positive,34780
+Book Reviews,BiLSTM (GloVe_Emb),negative,negative,3787
+Book Reviews,BiLSTM (GloVe_Emb),negative,neutral,484
+Book Reviews,BiLSTM (GloVe_Emb),negative,positive,1021
+Book Reviews,BiLSTM (GloVe_Emb),neutral,negative,782
+Book Reviews,BiLSTM (GloVe_Emb),neutral,neutral,1102
+Book Reviews,BiLSTM (GloVe_Emb),neutral,positive,1930
+Book Reviews,BiLSTM (GloVe_Emb),positive,negative,534
+Book Reviews,BiLSTM (GloVe_Emb),positive,neutral,649
+Book Reviews,BiLSTM (GloVe_Emb),positive,positive,34711
+Book Reviews,BiLSTM (Learned_Emb),negative,negative,3130
+Book Reviews,BiLSTM (Learned_Emb),negative,neutral,374
+Book Reviews,BiLSTM (Learned_Emb),negative,positive,1788
+Book Reviews,BiLSTM (Learned_Emb),neutral,negative,651
+Book Reviews,BiLSTM (Learned_Emb),neutral,neutral,440
+Book Reviews,BiLSTM (Learned_Emb),neutral,positive,2723
+Book Reviews,BiLSTM (Learned_Emb),positive,negative,322
+Book Reviews,BiLSTM (Learned_Emb),positive,neutral,172
+Book Reviews,BiLSTM (Learned_Emb),positive,positive,35400
+Book Reviews,CNN-LSTM (GloVe_Emb),negative,negative,3494
+Book Reviews,CNN-LSTM (GloVe_Emb),negative,neutral,596
+Book Reviews,CNN-LSTM (GloVe_Emb),negative,positive,1202
+Book Reviews,CNN-LSTM (GloVe_Emb),neutral,negative,600
+Book Reviews,CNN-LSTM (GloVe_Emb),neutral,neutral,1092
+Book Reviews,CNN-LSTM (GloVe_Emb),neutral,positive,2122
+Book Reviews,CNN-LSTM (GloVe_Emb),positive,negative,387
+Book Reviews,CNN-LSTM (GloVe_Emb),positive,neutral,570
+Book Reviews,CNN-LSTM (GloVe_Emb),positive,positive,34937
+Book Reviews,CNN (GloVe_Emb),negative,negative,2006
+Book Reviews,CNN (GloVe_Emb),negative,neutral,6
+Book Reviews,CNN (GloVe_Emb),negative,positive,3280
+Book Reviews,CNN (GloVe_Emb),neutral,negative,442
+Book Reviews,CNN (GloVe_Emb),neutral,neutral,27
+Book Reviews,CNN (GloVe_Emb),neutral,positive,3345
+Book Reviews,CNN (GloVe_Emb),positive,negative,224
+Book Reviews,CNN (GloVe_Emb),positive,neutral,11
+Book Reviews,CNN (GloVe_Emb),positive,positive,35659
+Book Reviews,CNN (Learned_Emb),negative,negative,3250
+Book Reviews,CNN (Learned_Emb),negative,neutral,122
+Book Reviews,CNN (Learned_Emb),negative,positive,1920
+Book Reviews,CNN (Learned_Emb),neutral,negative,783
+Book Reviews,CNN (Learned_Emb),neutral,neutral,451
+Book Reviews,CNN (Learned_Emb),neutral,positive,2580
+Book Reviews,CNN (Learned_Emb),positive,negative,512
+Book Reviews,CNN (Learned_Emb),positive,neutral,162
+Book Reviews,CNN (Learned_Emb),positive,positive,35220
+Book Reviews,DistilBERT_Feature_Extractor__LR,negative,negative,3892
+Book Reviews,DistilBERT_Feature_Extractor__LR,negative,neutral,1031
+Book Reviews,DistilBERT_Feature_Extractor__LR,negative,positive,369
+Book Reviews,DistilBERT_Feature_Extractor__LR,neutral,negative,890
+Book Reviews,DistilBERT_Feature_Extractor__LR,neutral,neutral,2167
+Book Reviews,DistilBERT_Feature_Extractor__LR,neutral,positive,757
+Book Reviews,DistilBERT_Feature_Extractor__LR,positive,negative,2770
+Book Reviews,DistilBERT_Feature_Extractor__LR,positive,neutral,6464
+Book Reviews,DistilBERT_Feature_Extractor__LR,positive,positive,26660
+Book Reviews,DistilBERT_Full_FT,negative,negative,4118
+Book Reviews,DistilBERT_Full_FT,negative,neutral,579
+Book Reviews,DistilBERT_Full_FT,negative,positive,595
+Book Reviews,DistilBERT_Full_FT,neutral,negative,679
+Book Reviews,DistilBERT_Full_FT,neutral,neutral,1623
+Book Reviews,DistilBERT_Full_FT,neutral,positive,1512
+Book Reviews,DistilBERT_Full_FT,positive,negative,409
+Book Reviews,DistilBERT_Full_FT,positive,neutral,783
+Book Reviews,DistilBERT_Full_FT,positive,positive,34702
+Book Reviews,LightGBM,negative,negative,3860
+Book Reviews,LightGBM,negative,neutral,732
+Book Reviews,LightGBM,negative,positive,700
+Book Reviews,LightGBM,neutral,negative,723
+Book Reviews,LightGBM,neutral,neutral,1895
+Book Reviews,LightGBM,neutral,positive,1196
+Book Reviews,LightGBM,positive,negative,1308
+Book Reviews,LightGBM,positive,neutral,2189
+Book Reviews,LightGBM,positive,positive,32397
+Book Reviews,Linear_SVM,negative,negative,3813
+Book Reviews,Linear_SVM,negative,neutral,634
+Book Reviews,Linear_SVM,negative,positive,845
+Book Reviews,Linear_SVM,neutral,negative,808
+Book Reviews,Linear_SVM,neutral,neutral,1540
+Book Reviews,Linear_SVM,neutral,positive,1466
+Book Reviews,Linear_SVM,positive,negative,1120
+Book Reviews,Linear_SVM,positive,neutral,1505
+Book Reviews,Linear_SVM,positive,positive,33269
+Book Reviews,Logistic_Regression,negative,negative,3808
+Book Reviews,Logistic_Regression,negative,neutral,637
+Book Reviews,Logistic_Regression,negative,positive,847
+Book Reviews,Logistic_Regression,neutral,negative,814
+Book Reviews,Logistic_Regression,neutral,neutral,1520
+Book Reviews,Logistic_Regression,neutral,positive,1480
+Book Reviews,Logistic_Regression,positive,negative,1075
+Book Reviews,Logistic_Regression,positive,neutral,1571
+Book Reviews,Logistic_Regression,positive,positive,33248
+Book Reviews,LSTM (GloVe_Emb),negative,negative,3530
+Book Reviews,LSTM (GloVe_Emb),negative,neutral,0
+Book Reviews,LSTM (GloVe_Emb),negative,positive,1762
+Book Reviews,LSTM (GloVe_Emb),neutral,negative,1105
+Book Reviews,LSTM (GloVe_Emb),neutral,neutral,0
+Book Reviews,LSTM (GloVe_Emb),neutral,positive,2709
+Book Reviews,LSTM (GloVe_Emb),positive,negative,888
+Book Reviews,LSTM (GloVe_Emb),positive,neutral,0
+Book Reviews,LSTM (GloVe_Emb),positive,positive,35006
+Book Reviews,LSTM (Learned_Emb),negative,negative,3278
+Book Reviews,LSTM (Learned_Emb),negative,neutral,17
+Book Reviews,LSTM (Learned_Emb),negative,positive,1997
+Book Reviews,LSTM (Learned_Emb),neutral,negative,928
+Book Reviews,LSTM (Learned_Emb),neutral,neutral,9
+Book Reviews,LSTM (Learned_Emb),neutral,positive,2877
+Book Reviews,LSTM (Learned_Emb),positive,negative,410
+Book Reviews,LSTM (Learned_Emb),positive,neutral,5
+Book Reviews,LSTM (Learned_Emb),positive,positive,35479
+Book Reviews,MLP (Avg_GloVe_Emb),negative,negative,1211
+Book Reviews,MLP (Avg_GloVe_Emb),negative,neutral,0
+Book Reviews,MLP (Avg_GloVe_Emb),negative,positive,4081
+Book Reviews,MLP (Avg_GloVe_Emb),neutral,negative,248
+Book Reviews,MLP (Avg_GloVe_Emb),neutral,neutral,0
+Book Reviews,MLP (Avg_GloVe_Emb),neutral,positive,3566
+Book Reviews,MLP (Avg_GloVe_Emb),positive,negative,466
+Book Reviews,MLP (Avg_GloVe_Emb),positive,neutral,0
+Book Reviews,MLP (Avg_GloVe_Emb),positive,positive,35428
+Book Reviews,MLP (Avg_Learned_Emb),negative,negative,3285
+Book Reviews,MLP (Avg_Learned_Emb),negative,neutral,105
+Book Reviews,MLP (Avg_Learned_Emb),negative,positive,1902
+Book Reviews,MLP (Avg_Learned_Emb),neutral,negative,862
+Book Reviews,MLP (Avg_Learned_Emb),neutral,neutral,155
+Book Reviews,MLP (Avg_Learned_Emb),neutral,positive,2797
+Book Reviews,MLP (Avg_Learned_Emb),positive,negative,673
+Book Reviews,MLP (Avg_Learned_Emb),positive,neutral,108
+Book Reviews,MLP (Avg_Learned_Emb),positive,positive,35113
+Book Reviews,Naive_Bayes,negative,negative,1569
+Book Reviews,Naive_Bayes,negative,neutral,43
+Book Reviews,Naive_Bayes,negative,positive,3680
+Book Reviews,Naive_Bayes,neutral,negative,297
+Book Reviews,Naive_Bayes,neutral,neutral,114
+Book Reviews,Naive_Bayes,neutral,positive,3403
+Book Reviews,Naive_Bayes,positive,negative,133
+Book Reviews,Naive_Bayes,positive,neutral,36
+Book Reviews,Naive_Bayes,positive,positive,35725
+Book Reviews,Random_Forest,negative,negative,3489
+Book Reviews,Random_Forest,negative,neutral,435
+Book Reviews,Random_Forest,negative,positive,1368
+Book Reviews,Random_Forest,neutral,negative,802
+Book Reviews,Random_Forest,neutral,neutral,1415
+Book Reviews,Random_Forest,neutral,positive,1597
+Book Reviews,Random_Forest,positive,negative,1870
+Book Reviews,Random_Forest,positive,neutral,1543
+Book Reviews,Random_Forest,positive,positive,32481
+Book Reviews,RNN (Learned_Emb),negative,negative,0
+Book Reviews,RNN (Learned_Emb),negative,neutral,0
+Book Reviews,RNN (Learned_Emb),negative,positive,5292
+Book Reviews,RNN (Learned_Emb),neutral,negative,0
+Book Reviews,RNN (Learned_Emb),neutral,neutral,0
+Book Reviews,RNN (Learned_Emb),neutral,positive,3814
+Book Reviews,RNN (Learned_Emb),positive,negative,0
+Book Reviews,RNN (Learned_Emb),positive,neutral,0
+Book Reviews,RNN (Learned_Emb),positive,positive,35894
+Book Reviews,RoBERTa_Full_FT,negative,negative,4295
+Book Reviews,RoBERTa_Full_FT,negative,neutral,611
+Book Reviews,RoBERTa_Full_FT,negative,positive,386
+Book Reviews,RoBERTa_Full_FT,neutral,negative,648
+Book Reviews,RoBERTa_Full_FT,neutral,neutral,1785
+Book Reviews,RoBERTa_Full_FT,neutral,positive,1381
+Book Reviews,RoBERTa_Full_FT,positive,negative,277
+Book Reviews,RoBERTa_Full_FT,positive,neutral,741
+Book Reviews,RoBERTa_Full_FT,positive,positive,34876
+Book Reviews,RoBERTa_LoRA_FT,negative,negative,4261
+Book Reviews,RoBERTa_LoRA_FT,negative,neutral,454
+Book Reviews,RoBERTa_LoRA_FT,negative,positive,577
+Book Reviews,RoBERTa_LoRA_FT,neutral,negative,875
+Book Reviews,RoBERTa_LoRA_FT,neutral,neutral,1274
+Book Reviews,RoBERTa_LoRA_FT,neutral,positive,1665
+Book Reviews,RoBERTa_LoRA_FT,positive,negative,413
+Book Reviews,RoBERTa_LoRA_FT,positive,neutral,587
+Book Reviews,RoBERTa_LoRA_FT,positive,positive,34894
+Financial News,BERT_Feature_Extractor__LR,negative,negative,73
+Financial News,BERT_Feature_Extractor__LR,negative,neutral,7
+Financial News,BERT_Feature_Extractor__LR,negative,positive,11
+Financial News,BERT_Feature_Extractor__LR,neutral,negative,35
+Financial News,BERT_Feature_Extractor__LR,neutral,neutral,323
+Financial News,BERT_Feature_Extractor__LR,neutral,positive,74
+Financial News,BERT_Feature_Extractor__LR,positive,negative,21
+Financial News,BERT_Feature_Extractor__LR,positive,neutral,38
+Financial News,BERT_Feature_Extractor__LR,positive,positive,145
+Financial News,BERT_Full_FT,negative,negative,79
+Financial News,BERT_Full_FT,negative,neutral,7
+Financial News,BERT_Full_FT,negative,positive,5
+Financial News,BERT_Full_FT,neutral,negative,18
+Financial News,BERT_Full_FT,neutral,neutral,374
+Financial News,BERT_Full_FT,neutral,positive,40
+Financial News,BERT_Full_FT,positive,negative,4
+Financial News,BERT_Full_FT,positive,neutral,34
+Financial News,BERT_Full_FT,positive,positive,166
+Financial News,BERT_LoRA_FT,negative,negative,82
+Financial News,BERT_LoRA_FT,negative,neutral,6
+Financial News,BERT_LoRA_FT,negative,positive,3
+Financial News,BERT_LoRA_FT,neutral,negative,22
+Financial News,BERT_LoRA_FT,neutral,neutral,362
+Financial News,BERT_LoRA_FT,neutral,positive,48
+Financial News,BERT_LoRA_FT,positive,negative,7
+Financial News,BERT_LoRA_FT,positive,neutral,32
+Financial News,BERT_LoRA_FT,positive,positive,165
+Financial News,BiLSTM (GloVe_Emb),negative,negative,28
+Financial News,BiLSTM (GloVe_Emb),negative,neutral,28
+Financial News,BiLSTM (GloVe_Emb),negative,positive,35
+Financial News,BiLSTM (GloVe_Emb),neutral,negative,12
+Financial News,BiLSTM (GloVe_Emb),neutral,neutral,393
+Financial News,BiLSTM (GloVe_Emb),neutral,positive,27
+Financial News,BiLSTM (GloVe_Emb),positive,negative,12
+Financial News,BiLSTM (GloVe_Emb),positive,neutral,83
+Financial News,BiLSTM (GloVe_Emb),positive,positive,109
+Financial News,BiLSTM (Learned_Emb),negative,negative,47
+Financial News,BiLSTM (Learned_Emb),negative,neutral,20
+Financial News,BiLSTM (Learned_Emb),negative,positive,24
+Financial News,BiLSTM (Learned_Emb),neutral,negative,13
+Financial News,BiLSTM (Learned_Emb),neutral,neutral,376
+Financial News,BiLSTM (Learned_Emb),neutral,positive,43
+Financial News,BiLSTM (Learned_Emb),positive,negative,14
+Financial News,BiLSTM (Learned_Emb),positive,neutral,79
+Financial News,BiLSTM (Learned_Emb),positive,positive,111
+Financial News,CNN-LSTM (GloVe_Emb),negative,negative,32
+Financial News,CNN-LSTM (GloVe_Emb),negative,neutral,25
+Financial News,CNN-LSTM (GloVe_Emb),negative,positive,34
+Financial News,CNN-LSTM (GloVe_Emb),neutral,negative,12
+Financial News,CNN-LSTM (GloVe_Emb),neutral,neutral,386
+Financial News,CNN-LSTM (GloVe_Emb),neutral,positive,34
+Financial News,CNN-LSTM (GloVe_Emb),positive,negative,12
+Financial News,CNN-LSTM (GloVe_Emb),positive,neutral,88
+Financial News,CNN-LSTM (GloVe_Emb),positive,positive,104
+Financial News,CNN (GloVe_Emb),negative,negative,58
+Financial News,CNN (GloVe_Emb),negative,neutral,25
+Financial News,CNN (GloVe_Emb),negative,positive,8
+Financial News,CNN (GloVe_Emb),neutral,negative,12
+Financial News,CNN (GloVe_Emb),neutral,neutral,397
+Financial News,CNN (GloVe_Emb),neutral,positive,23
+Financial News,CNN (GloVe_Emb),positive,negative,12
+Financial News,CNN (GloVe_Emb),positive,neutral,89
+Financial News,CNN (GloVe_Emb),positive,positive,103
+Financial News,CNN (Learned_Emb),negative,negative,49
+Financial News,CNN (Learned_Emb),negative,neutral,32
+Financial News,CNN (Learned_Emb),negative,positive,10
+Financial News,CNN (Learned_Emb),neutral,negative,14
+Financial News,CNN (Learned_Emb),neutral,neutral,380
+Financial News,CNN (Learned_Emb),neutral,positive,38
+Financial News,CNN (Learned_Emb),positive,negative,11
+Financial News,CNN (Learned_Emb),positive,neutral,85
+Financial News,CNN (Learned_Emb),positive,positive,108
+Financial News,DistilBERT_Feature_Extractor__LR,negative,negative,77
+Financial News,DistilBERT_Feature_Extractor__LR,negative,neutral,7
+Financial News,DistilBERT_Feature_Extractor__LR,negative,positive,7
+Financial News,DistilBERT_Feature_Extractor__LR,neutral,negative,32
+Financial News,DistilBERT_Feature_Extractor__LR,neutral,neutral,327
+Financial News,DistilBERT_Feature_Extractor__LR,neutral,positive,73
+Financial News,DistilBERT_Feature_Extractor__LR,positive,negative,22
+Financial News,DistilBERT_Feature_Extractor__LR,positive,neutral,44
+Financial News,DistilBERT_Feature_Extractor__LR,positive,positive,138
+Financial News,DistilBERT_Full_FT,negative,negative,82
+Financial News,DistilBERT_Full_FT,negative,neutral,5
+Financial News,DistilBERT_Full_FT,negative,positive,4
+Financial News,DistilBERT_Full_FT,neutral,negative,23
+Financial News,DistilBERT_Full_FT,neutral,neutral,369
+Financial News,DistilBERT_Full_FT,neutral,positive,40
+Financial News,DistilBERT_Full_FT,positive,negative,6
+Financial News,DistilBERT_Full_FT,positive,neutral,38
+Financial News,DistilBERT_Full_FT,positive,positive,160
+Financial News,FinBERT_Full_FT,negative,negative,80
+Financial News,FinBERT_Full_FT,negative,neutral,8
+Financial News,FinBERT_Full_FT,negative,positive,3
+Financial News,FinBERT_Full_FT,neutral,negative,16
+Financial News,FinBERT_Full_FT,neutral,neutral,376
+Financial News,FinBERT_Full_FT,neutral,positive,40
+Financial News,FinBERT_Full_FT,positive,negative,3
+Financial News,FinBERT_Full_FT,positive,neutral,24
+Financial News,FinBERT_Full_FT,positive,positive,177
+Financial News,LightGBM,negative,negative,62
+Financial News,LightGBM,negative,neutral,15
+Financial News,LightGBM,negative,positive,14
+Financial News,LightGBM,neutral,negative,23
+Financial News,LightGBM,neutral,neutral,358
+Financial News,LightGBM,neutral,positive,51
+Financial News,LightGBM,positive,negative,15
+Financial News,LightGBM,positive,neutral,61
+Financial News,LightGBM,positive,positive,128
+Financial News,Linear_SVM,negative,negative,58
+Financial News,Linear_SVM,negative,neutral,19
+Financial News,Linear_SVM,negative,positive,14
+Financial News,Linear_SVM,neutral,negative,19
+Financial News,Linear_SVM,neutral,neutral,356
+Financial News,Linear_SVM,neutral,positive,57
+Financial News,Linear_SVM,positive,negative,14
+Financial News,Linear_SVM,positive,neutral,72
+Financial News,Linear_SVM,positive,positive,118
+Financial News,Logistic_Regression,negative,negative,60
+Financial News,Logistic_Regression,negative,neutral,19
+Financial News,Logistic_Regression,negative,positive,12
+Financial News,Logistic_Regression,neutral,negative,18
+Financial News,Logistic_Regression,neutral,neutral,361
+Financial News,Logistic_Regression,neutral,positive,53
+Financial News,Logistic_Regression,positive,negative,13
+Financial News,Logistic_Regression,positive,neutral,72
+Financial News,Logistic_Regression,positive,positive,119
+Financial News,LSTM (GloVe_Emb),negative,negative,0
+Financial News,LSTM (GloVe_Emb),negative,neutral,37
+Financial News,LSTM (GloVe_Emb),negative,positive,54
+Financial News,LSTM (GloVe_Emb),neutral,negative,0
+Financial News,LSTM (GloVe_Emb),neutral,neutral,372
+Financial News,LSTM (GloVe_Emb),neutral,positive,60
+Financial News,LSTM (GloVe_Emb),positive,negative,0
+Financial News,LSTM (GloVe_Emb),positive,neutral,125
+Financial News,LSTM (GloVe_Emb),positive,positive,79
+Financial News,LSTM (Learned_Emb),negative,negative,0
+Financial News,LSTM (Learned_Emb),negative,neutral,17
+Financial News,LSTM (Learned_Emb),negative,positive,74
+Financial News,LSTM (Learned_Emb),neutral,negative,0
+Financial News,LSTM (Learned_Emb),neutral,neutral,354
+Financial News,LSTM (Learned_Emb),neutral,positive,78
+Financial News,LSTM (Learned_Emb),positive,negative,0
+Financial News,LSTM (Learned_Emb),positive,neutral,71
+Financial News,LSTM (Learned_Emb),positive,positive,133
+Financial News,MLP (Avg_GloVe_Emb),negative,negative,31
+Financial News,MLP (Avg_GloVe_Emb),negative,neutral,22
+Financial News,MLP (Avg_GloVe_Emb),negative,positive,38
+Financial News,MLP (Avg_GloVe_Emb),neutral,negative,20
+Financial News,MLP (Avg_GloVe_Emb),neutral,neutral,372
+Financial News,MLP (Avg_GloVe_Emb),neutral,positive,40
+Financial News,MLP (Avg_GloVe_Emb),positive,negative,13
+Financial News,MLP (Avg_GloVe_Emb),positive,neutral,94
+Financial News,MLP (Avg_GloVe_Emb),positive,positive,97
+Financial News,MLP (Avg_Learned_Emb),negative,negative,0
+Financial News,MLP (Avg_Learned_Emb),negative,neutral,26
+Financial News,MLP (Avg_Learned_Emb),negative,positive,65
+Financial News,MLP (Avg_Learned_Emb),neutral,negative,0
+Financial News,MLP (Avg_Learned_Emb),neutral,neutral,370
+Financial News,MLP (Avg_Learned_Emb),neutral,positive,62
+Financial News,MLP (Avg_Learned_Emb),positive,negative,0
+Financial News,MLP (Avg_Learned_Emb),positive,neutral,102
+Financial News,MLP (Avg_Learned_Emb),positive,positive,102
+Financial News,Naive_Bayes,negative,negative,9
+Financial News,Naive_Bayes,negative,neutral,52
+Financial News,Naive_Bayes,negative,positive,30
+Financial News,Naive_Bayes,neutral,negative,0
+Financial News,Naive_Bayes,neutral,neutral,421
+Financial News,Naive_Bayes,neutral,positive,11
+Financial News,Naive_Bayes,positive,negative,0
+Financial News,Naive_Bayes,positive,neutral,143
+Financial News,Naive_Bayes,positive,positive,61
+Financial News,Random_Forest,negative,negative,60
+Financial News,Random_Forest,negative,neutral,25
+Financial News,Random_Forest,negative,positive,6
+Financial News,Random_Forest,neutral,negative,28
+Financial News,Random_Forest,neutral,neutral,381
+Financial News,Random_Forest,neutral,positive,23
+Financial News,Random_Forest,positive,negative,24
+Financial News,Random_Forest,positive,neutral,89
+Financial News,Random_Forest,positive,positive,91
+Financial News,RNN (Learned_Emb),negative,negative,0
+Financial News,RNN (Learned_Emb),negative,neutral,91
+Financial News,RNN (Learned_Emb),negative,positive,0
+Financial News,RNN (Learned_Emb),neutral,negative,0
+Financial News,RNN (Learned_Emb),neutral,neutral,431
+Financial News,RNN (Learned_Emb),neutral,positive,1
+Financial News,RNN (Learned_Emb),positive,negative,0
+Financial News,RNN (Learned_Emb),positive,neutral,202
+Financial News,RNN (Learned_Emb),positive,positive,2
+Financial News,RoBERTa_Full_FT,negative,negative,85
+Financial News,RoBERTa_Full_FT,negative,neutral,5
+Financial News,RoBERTa_Full_FT,negative,positive,1
+Financial News,RoBERTa_Full_FT,neutral,negative,18
+Financial News,RoBERTa_Full_FT,neutral,neutral,367
+Financial News,RoBERTa_Full_FT,neutral,positive,47
+Financial News,RoBERTa_Full_FT,positive,negative,1
+Financial News,RoBERTa_Full_FT,positive,neutral,30
+Financial News,RoBERTa_Full_FT,positive,positive,173
+Financial News,RoBERTa_LoRA_FT,negative,negative,86
+Financial News,RoBERTa_LoRA_FT,negative,neutral,4
+Financial News,RoBERTa_LoRA_FT,negative,positive,1
+Financial News,RoBERTa_LoRA_FT,neutral,negative,20
+Financial News,RoBERTa_LoRA_FT,neutral,neutral,364
+Financial News,RoBERTa_LoRA_FT,neutral,positive,48
+Financial News,RoBERTa_LoRA_FT,positive,negative,4
+Financial News,RoBERTa_LoRA_FT,positive,neutral,39
+Financial News,RoBERTa_LoRA_FT,positive,positive,161
